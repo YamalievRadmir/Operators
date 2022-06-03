@@ -6,9 +6,6 @@ public class Operators {
 
     public static void main (String[] args) {
 
-        boolean bool = false;
-        char character = 'a';
-
         byte a = 2;
         short b = 4;
         long c = 100;
@@ -29,9 +26,13 @@ public class Operators {
          else if (price <= 1000 || price >= 10000)
                         System.out.println("Что ты тут забыл?");
 
+        int m = 2000000000;
+        int n = 2000000000;
+        int v = m + n;
+        System.out.println(v);
+
         float f = 4.24f;
         int g = 5;
-
         System.out.println("Большее число из 2 чисел: " + Math.max(f,g));
         System.out.println("Меньшее число из 2 чисел: " + Math.min(f,g));
 

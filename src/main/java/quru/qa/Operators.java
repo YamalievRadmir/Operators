@@ -31,6 +31,11 @@ public class Operators {
         int v = m + n;
         System.out.println(v);
 
+        int l = -2000000000;
+        int k = -2000000000;
+        int x = l + k;
+        System.out.println(x);
+
         float f = 4.24f;
         int g = 5;
         System.out.println("Большее число из 2 чисел: " + Math.max(f,g));
